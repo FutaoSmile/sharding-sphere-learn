@@ -1,11 +1,12 @@
-package com.futao.shardingspherelearn.mapper;
+package com.futao.shardingspherelearn.read.write.splitting;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.futao.shardingspherelearn.entity.UserEntity;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * @author futao
  * @since 2022/11/18
  */
+@Mapper
 public interface UserMapper extends BaseMapper<UserEntity> {
 }

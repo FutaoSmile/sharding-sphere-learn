@@ -813,6 +813,8 @@ public class UserController {
 
 # 第05章 ShardingSphere-JDBC垂直分片
 
+> 把原本同一个mysql服务器数据库的表拆分到多个mysql服务器
+
 ## 1、准备服务器
 
 服务器规划：使用`docker`方式创建如下容器
