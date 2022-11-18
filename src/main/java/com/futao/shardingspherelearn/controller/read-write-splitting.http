@@ -1,0 +1,17 @@
+POST http://127.0.0.1:8080/read-write-splitting
+Content-Type: application/json
+
+{
+  "uname": "李达康"
+}
+
+###
+POST http://127.0.0.1:8080/read-write-splitting/transaction
+Content-Type: application/json
+
+{
+  "uname": "李达康"
+}
+
+###
+GET http://127.0.0.1:8080/read-write-splitting/list

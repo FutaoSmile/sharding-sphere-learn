@@ -14,8 +14,8 @@ import java.util.List;
  * @since 2022/11/18
  */
 @RestController
-@RequestMapping("/user")
-public class UserController {
+@RequestMapping("/read-write-splitting")
+public class ReadWriteSplittingController {
 
     @Resource
     private UserMapper userMapper;
