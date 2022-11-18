@@ -1045,7 +1045,7 @@ ShardingSphere-JDBC远程连接的方式默认的密码加密规则是：mysql_n
 ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
 ```
 
-
+![image-20221118110546210](./assets/image-20221118110546210.png)
 
 
 

@@ -1,0 +1,13 @@
+POST http://127.0.0.1:8080/vertical-sub-lib
+Content-Type: application/json
+
+{
+  "user": {
+    "uname": "李达康"
+  },
+  "order": {
+    "orderNo": "{{$randomInt}}",
+    "userId": "{{$randomInt}}",
+    "amount": "{{$randomInt}}"
+  }
+}

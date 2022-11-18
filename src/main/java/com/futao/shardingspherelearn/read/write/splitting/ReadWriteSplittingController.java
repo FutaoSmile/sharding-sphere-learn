@@ -1,6 +1,8 @@
 package com.futao.shardingspherelearn.read.write.splitting;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.futao.shardingspherelearn.entity.UserEntity;
+import com.futao.shardingspherelearn.entity.UserMapper;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
